@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69b1e80c-4a98-4a8a-bc13-e31977ffd4b1" name="Default Changelist" comment="" />
+    <list default="true" id="69b1e80c-4a98-4a8a-bc13-e31977ffd4b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/BookLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="375">
               <caret line="45" column="55" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,12 +57,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BookLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="285">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,14 +105,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/LBook.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Borrower.java" />
         <option value="$PROJECT_DIR$/src/test/java/BorrowerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BookLibrary.java" />
       </list>
     </option>
@@ -118,6 +126,9 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -171,7 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559117538801" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559119407413" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -194,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BorrowerTest">
+  <component name="RunManager" selected="JUnit.LibraryTest.testBookCountByGenre">
     <configuration name="BorrowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Library" />
       <option name="PACKAGE_NAME" value="" />
@@ -221,8 +232,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryTest.testBookCountByGenre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="testBookCountByGenre" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.testBookCountByGenre" />
         <item itemvalue="JUnit.BorrowerTest" />
         <item itemvalue="JUnit.LibraryTest.testBookCapacityWhenAddingBookToLibrary" />
         <item itemvalue="JUnit.LibraryTest" />
@@ -254,6 +276,21 @@
     </history-entry>
     <history-entry file="BorrowerTest - 2019.05.29 at 09h 07m 44s.xml">
       <configuration name="BorrowerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testBookCountByGenre - 2019.05.29 at 09h 39m 17s.xml">
+      <configuration name="LibraryTest.testBookCountByGenre" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testBookCountByGenre - 2019.05.29 at 09h 40m 32s.xml">
+      <configuration name="LibraryTest.testBookCountByGenre" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testBookCountByGenre - 2019.05.29 at 09h 41m 15s.xml">
+      <configuration name="LibraryTest.testBookCountByGenre" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testBookCountByGenre - 2019.05.29 at 09h 42m 22s.xml">
+      <configuration name="LibraryTest.testBookCountByGenre" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testBookCountByGenre - 2019.05.29 at 09h 43m 09s.xml">
+      <configuration name="LibraryTest.testBookCountByGenre" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -313,17 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="88" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="88" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Borrower.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -351,7 +377,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
+        <state relative-caret-position="375">
           <caret line="45" column="55" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -361,14 +387,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="88" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="88" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BookLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="285">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
           </folding>
         </state>
       </provider>

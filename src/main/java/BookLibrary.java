@@ -10,6 +10,7 @@ public class BookLibrary {
     public BookLibrary(){
         this.books = new ArrayList<LBook>();
         this.capacity = 5;
+        this.booksByGenre = new HashMap<String, Integer>();
     }
 
     public int getBookCount() {
@@ -19,15 +20,21 @@ public class BookLibrary {
     public void addBookToLibrary(LBook book){
         if(this.getBookCount() < this.capacity){
             this.books.add(book);
+            this.addToGenreHashMap(book);
+        }
+    }
+
+    private void addToGenreHashMap(LBook book){
+        if(booksByGenre.containsKey(book.genre)){
+            int value = booksByGenre.get(book.genre);
+            booksByGenre.put(book.genre, value+=1 );
+        }else{
+            booksByGenre.put(book.genre, 1 );
         }
     }
 
 
     public int getNumberOfBooksByGenre(String genre) {
-        for(int i=0; i<this.getBookCount(); i++){
-          //  booksByGenre.put(this.books[i].genre, 1 );
-        }
-        return 0;
-        //booksByGenre
+      return this.booksByGenre.get(genre);
     }
 }
